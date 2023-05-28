@@ -1,0 +1,126 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background-color:red ;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{ 
+    width: 1200px;
+    background: white;
+    margin: 10px auto;
+}
+.superior{
+    background: #000000;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 300px;
+    padding: 10px;
+}
+/*ESTILO PARA EL MENU DE OPCIONES*/
+.menu{
+    float: left;
+    padding: 100px;
+   
+}
+.opciones li{
+    float: left;
+    list-style: none;
+}
+.opciones li a{
+    color:white;
+    padding: 40px;
+    text-decoration: none;
+    border:2px solid white ;
+} 
+.opciones li a:hover{
+    background: red;
+}
+/*ESTILO CUERPO*/
+.cuerpo{
+    overflow: hidden;
+}
+.titulo{
+    color: white;
+    background: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 15px 0;
+
+}
+.caja_1{
+    float:left;
+    width: 500;
+    margin: 40px;
+    border: 1px solid;
+}
+.caja_2{
+    float: left;
+    width: 450;
+    margin: 40px;
+    border: 1px solid;
+}
+.caja_3{
+    float: left;
+    width: 500;
+    margin: 40px;
+    border: 1px solid;
+}
+.subtitulo{
+    background:black;
+}
+.audicular{
+    color:white;
+    text-align: center;
+    padding: 15px;
+}
+.subtitulo_1{
+    background-color: black;
+}
+.audicular_1{
+    color: white;
+    text-align: center;
+    padding: 15;
+}
+.efecto:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.contenido{
+    padding: 15px;
+    text-align:justify;
+}
+
+/*ESTILOS DE FOOTER*/
+.pie{
+    background-color: black;
+    overflow: hidden;
+    width: 1200px;
+    margin: 10px auto;
+
+}
+.izquierda{
+    float: left;
+    width: 350px;
+    padding: 15px;
+}
+.derecha{
+    float: left;
+    width: 600px;
+    padding: 15px;
+   
+}
+.abajo{
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+}
+.siguenos{
+    text-align: center;
+    color: white;
+    padding: 40px 0;
+
+}
